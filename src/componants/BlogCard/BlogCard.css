@@ -45,13 +45,13 @@
 }
 
 .author-name{
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 10px;
     font-style: italic;
 }
 
 .blog-date{
-    font-size: 12px;
+    font-size: 13px;
     font-style: italic;
     margin-left: 30px;
 }
@@ -61,6 +61,6 @@
     color: #000;
     padding: 2px 10px;
     margin: 3px;
-    font-size: 10px;
+    font-size: 13px;
     border-radius: 20px;
 }
