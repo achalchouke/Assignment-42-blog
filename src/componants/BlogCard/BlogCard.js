@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 function BlogCard({id, img, title, content, author, date, categories }) {
   return (
     <>
-    <Link className='blog-card'  to={`/blog /${id}`}>
-        <img src={img} className="img"/>
+    
+    <Link className='blog-card' to={`/blog/${id}`}>
+
+         <img src={img} className="img"/>
         <h2 className="blog-title">{title}</h2>
         <p className="blog-content-preview">
             {content.substring(0 , 70)}....
@@ -20,7 +22,9 @@ function BlogCard({id, img, title, content, author, date, categories }) {
         {categories.map((category , i) => {
           return <span key = {i} className="category-bage">{category}</span>
         })}
+      
        </Link>
+       
       
     </>
   )

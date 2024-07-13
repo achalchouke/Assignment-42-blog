@@ -11,10 +11,10 @@ function BlogViews() {
  
 
   return (
-    <div>
-      <h1>{selectedBlog.title}</h1>
-      <p>
-      <img src={selectedBlog.avatar} height={"40px"}/>
+    <div className="detail-container">
+      <h1 className="title">{selectedBlog.title}</h1>
+      <p className="author-card">
+      <img src={selectedBlog.author.avatar}  className="author-avatar"/>
         {selectedBlog.author.name} : {selectedBlog.date}
       </p>
       {selectedBlog.content}
